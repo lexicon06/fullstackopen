@@ -1,0 +1,9 @@
+title New Note Diagram
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note
+browser->server: JSON data: { content: "New Note" }
+server-->browser: New note added successfully
+
+note over browser:
+Browser updates the notes list
+end note
